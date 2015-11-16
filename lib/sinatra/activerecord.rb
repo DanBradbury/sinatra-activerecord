@@ -1,6 +1,7 @@
 require 'sinatra/base'
 require 'active_record'
 require 'active_support/core_ext/hash/keys'
+require 'active_record/connection_adapters/empostgresql_adapter'
 
 require 'logger'
 require 'pathname'
